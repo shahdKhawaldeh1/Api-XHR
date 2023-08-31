@@ -1,0 +1,228 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+  }
+  /* index style */
+  .header {
+    padding: 20px;
+    background-color: #343a40;
+    color: #fff;
+    margin-top: 0; 
+
+  }
+  .row:hover .col-md-4 {
+    transform: translateY(-5px);
+  }
+
+  .layout {
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .word {
+    padding-left: 5px;
+  }
+  
+  .side-navbar {
+    background-color: #343a40;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 200px; 
+    height: 100vh;
+    margin-right: 0;     
+    overflow-y: auto; /* Enable vertical scrolling when content overflows */
+
+
+  }
+  
+  .lists {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    padding: 5px 0;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .nav-link:hover {
+    background-color: #292d31;
+  }
+  
+  /* details */
+  .heading1{
+    text-align: center;
+    font-size: 30px;
+ margin-bottom: 30px;
+ margin-top: 20px;
+    color:#063364;
+  }
+
+  
+/* main style */
+.row-main{
+    width: 33.3333%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .card h2 {
+    font-size: 20px;
+    margin: 10px 0;
+  }
+  
+  .card p {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #666;
+  }
+  
+  .card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .click {
+    display: inline-block;
+    padding: 8px 15px;
+    background-color: #17a2b8;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .click:hover {
+    background-color: #138496;
+  }
+/* main style */
+
+.heading2-main {
+    font-size: 20px;
+    margin: 10px 0;
+    text-align: center;
+  }
+  
+  .pargraph-main {
+    font-size: 16px;
+    text-align: center;
+
+    margin-bottom: 10px;
+    color: #666;
+  }
+  
+  .card img {
+    max-width: 100%;
+    height: 100px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .click {
+    display: inline-block;
+    padding: 8px 15px;
+    background-color: #17a2b8;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .click:hover {
+    background-color: #138496;
+  }
+    
+  /* detalis  */
+  .row-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .column-details {
+    flex: 1;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .column-details:hover {
+    transform: translateY(-5px);
+  }
+  
+  .heading2-details {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .column-details img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 15px;
+  }
+  
+  h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .paragraph-details {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  .btn-details {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .btn-details:hover {
+    background-color: #0056b3;
+  }
+  
